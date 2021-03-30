@@ -5,3 +5,33 @@ npm install
 npm install discord.js
 To make your bot online you need to write:
 node . OR node index.js
+
+You’ll need Node.js v12 or above
+To check which version you have, go into a command prompt or terminal, and type node -v
+
+HOW TO CREATE A BOT?
+First, you need to visit the Discord Developer Portal
+Discord Developer Portal: https://discordapp.com/developers/applications/
+Click the “New Application” button. Give your bot a name, and click “Create”. This will create a new application that uses the Discord API.
+
+Photo: https://imgur.com/a/2AgC96d
+Photo: https://imgur.com/a/0VcBkLD
+
+You’ll get to your application’s page, where if you want, you can give it a description and an avatar.
+
+Applications aren’t necessarily bots, but bots are one of the most popular uses. Many games use the Discord API to make their game work with Rich Presence. We’ll just need to turn our application into a bot.
+
+On the left, you should see a “Bot” tab. Click on that.
+
+Photo: https://imgur.com/a/IlsEv6l
+
+Now, click the “Add Bot” button.
+Give your new bot a name and an icon to make it stand out.
+
+HOW TO ADD BOT TO YOUR SERVER?
+The next thing we need to do is add the bot to a Discord server. It needs to be on a server where you have administrative privileges. You’ll need to use a URL that looks something like this:
+
+https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot
+You’ll need to replace CLIENT_ID with the client ID of your bot, which you can find on the application page. The client ID is a unique public ID that Discord uses to identify a bot. In this instance, we’re telling Discord which bot we’d like to add to the server.
+
+photo: https://imgur.com/a/73JB16y
