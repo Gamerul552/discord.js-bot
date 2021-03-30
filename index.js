@@ -29,7 +29,7 @@ client.on('ready', () => {
 // CMDS START
 // Create an event listener for messages
 client.on('message', message => {
-  // If the message is "-avatar"
+  // If the message is "avatar"
   if (message.content === 'avatar') {
     // Send the user's avatar URL
     message.reply(message.author.displayAvatarURL());
@@ -38,7 +38,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-  // If the message is '!rip'
+  // If the message is 'rip'
   if (message.content === 'rip') {
     // Create the attachment using MessageAttachment
     const attachment = new MessageAttachment('https://i.imgur.com/w3duR07.png');
