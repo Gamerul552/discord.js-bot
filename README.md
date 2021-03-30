@@ -1,1 +1,2 @@
-# discord.js-bot
+# discord.js bot
+# A simple bot
