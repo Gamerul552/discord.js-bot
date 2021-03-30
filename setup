@@ -1,0 +1,6 @@
+Downlaod node.js : https://nodejs.org/en/download/ (original website)
+Type in Command Prompt:
+npm init
+npm install discord.js
+To make your bot online you need to write:
+node . OR node index.js
